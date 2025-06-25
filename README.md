@@ -3,10 +3,10 @@
 apt update && apt upgrade -y
 ```
 ```
-git clone https://github.com/Dikiboy108/DafabasesRansz
+git clone https://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@github.com/Nexus876/Ubot
 ```
 ```
-cd DafabasesRansz && screen -S DafabasesRansz
+cd Ubot && screen -S Ubot
 ```
 ```
 apt install ffmpeg -y
@@ -27,16 +27,16 @@ pip3 install -r requirements.txt
 cp sample.env .env && nano .env
 ```
 ```
-screen -S DafabasesRansz
+screen -S Ubot
 ```
 ```
 python3 -m PyroUbot
 ```
 ```
----------- Menghidupan jika ubot mati -------------
+---------- Menghidupan jika ubot mati ----------
 ```
 ```
-cd DafabasesRansz && screen -S DafabasesRansz
+cd Ubot && screen -S Ubot
 ```
 ```
 python3 -m venv venv && source venv/bin/activate
